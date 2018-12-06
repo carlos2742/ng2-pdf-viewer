@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@types/pdfjs-dist": "^0.1.2",
-    "pdfjs-dist": "git+https://github.com/carlos2742/pdf.js/master"
+    "pdfjs-dist": "git+https://github.com/carlos2742/pdf.js.git"
   },
   "devDependencies": {
     "@angular/animations": "^5.2.0",
