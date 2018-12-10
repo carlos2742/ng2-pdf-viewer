@@ -13,7 +13,8 @@
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json",
     "docs": "ng build --prod --output-path docs --base-href ng2-pdf-viewer && cp ./docs/index.html ./docs/404.html",
-    "postinstall": "npm run packagr"
+    "postinstall": "npm run packagr",
+    "preinstall": "npm install"
   },
   "private": false,
   "repository": {
